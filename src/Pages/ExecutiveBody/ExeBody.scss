@@ -1,0 +1,112 @@
+.tos {
+	text-align: center;
+	&__header {
+		position: relative;
+		display: flex;
+		padding-top: 8rem;
+		padding-bottom: 5rem;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #e69925;
+		margin-top: -1px;
+		border-bottom-left-radius: 50em 10%;
+		border-bottom-right-radius: 50em 10%;
+		overflow: hidden;
+		min-height: 25vh;
+
+		&__heading {
+			font-size: 3.2rem;
+			font-weight: 600;
+			letter-spacing: 0.7rem;
+		}
+
+		&__description {
+			font-size: 2rem;
+			font-weight: 400;
+			margin-top: 2rem;
+			letter-spacing: 0.1rem;
+		}
+	}
+
+	&__body {
+		// height: 72vh;
+		padding-top: 10rem;
+		padding-bottom: 40rem;
+		background-image: url("../../assets/bgfooter.png");
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: contain;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: left;
+		font-size: 3rem;
+		color: #fffde3;
+
+        .document{
+            width: 80%;
+            font-weight: 300;
+        }
+
+		.heading-primary {
+			font-size: 5rem;
+			color: #4fa095;
+		}
+	}
+}
+
+.bold{
+    font-weight: 400;
+    font-size: 3.5;
+}
+
+.bold-head{
+    font-weight: 500;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 8rem;
+}
+.CardCotainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; // Adjust this according to your layout preference
+}
+
+.Card {
+    // Add any styles for individual cards if needed
+    margin-bottom: 20px; // Adjust as needed for spacing between cards
+    flex-basis: calc(33.33% - 20px); // Adjust for number of cards per row and spacing
+    max-width: calc(33.33% - 20px); // Adjust for number of cards per row and spacing
+}
+
+@media (max-width: 768px) {
+    .Card {
+        flex-basis: calc(50% - 20px); // Adjust for number of cards per row and spacing on smaller screens
+        max-width: calc(50% - 20px); // Adjust for number of cards per row and spacing on smaller screens
+    }
+}
+
+@media (max-width: 480px) {
+    .Card {
+        flex-basis: calc(100% - 20px); // Display one card per row on smaller screens
+        max-width: calc(100% - 20px); // Display one card per row on smaller screens
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .tos{
+
+        &__body{
+            padding-bottom: 20rem;
+
+            .document{
+                width: 98%;
+            }
+        }
+
+    }
+}

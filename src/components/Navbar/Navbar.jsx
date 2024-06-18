@@ -60,6 +60,16 @@ function Navbar(props) {
 								Terms of Service
 							</NavLink>
 						</li>
+						<li className="nav-item">
+							<NavLink
+								to="/exebody"
+								className="nav-links"
+                                activeClassName="active-links"
+								onClick={click ? handleClick : null}
+							>
+								Executive Body
+							</NavLink>
+						</li>
                         <li className="nav-item">
                             <a href="https://discord.com/invite/RqSrvBefHE" target='_blank' className="nav-links">Join Discord</a>
 						</li>

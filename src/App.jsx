@@ -9,6 +9,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Events from "./Pages/Events/Events";
 import TermsAndService from "./Pages/TermsAndService/TermsAndService";
 import Footer from "./components/Footer/Footer";
+import ExeBody from "./Pages/ExecutiveBody/ExeBody";
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -33,6 +34,9 @@ function App() {
 						</Route>
 						<Route exact path="/tos">
 							<TermsAndService />
+						</Route>
+						<Route exact path="/exebody">
+							<ExeBody />
 						</Route>
 					</Switch>
 					<Footer />
