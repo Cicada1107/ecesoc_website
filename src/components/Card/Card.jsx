@@ -4,7 +4,7 @@ import ritik from "../../../public/K22images/ANANDKASHYAP.jpg";
 
 
 const Card = ({ name, batch, position, imageUrl, linkedinUrl, githubUrl, instaUrl }) => {
-  const Url = `../../../public/K22images/${imageUrl}.jpg`;
+  const Url = `/K22images/${imageUrl}.jpg`;
   console.log(Url);
   return (
 
