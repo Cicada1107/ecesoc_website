@@ -5,7 +5,6 @@ const K22 = [
         name: "Abhyuday Pandey",
         batch: "K22",
         position: "General Secretary",
-        
         imageUrl: "../../../public/K22images/AbhyudayPandey.jpg",
         linkedinUrl: "https://www.linkedin.com/in/abhyuday-pandey-2302ad/",
         githubUrl: "",
