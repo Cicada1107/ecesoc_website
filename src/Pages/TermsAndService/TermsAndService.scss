@@ -1,3 +1,13 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
 .tos {
 	text-align: center;
 	&__header {
@@ -52,6 +62,36 @@
 		.heading-primary {
 			font-size: 5rem;
 			color: #4fa095;
+		}
+
+		&__landing{
+			opacity: 0;
+  			transform: translateY(200px);
+  			animation: reveal 1s ease-out forwards;
+			font-size: 3em;
+  			margin: 0.5em 0;
+  			background: linear-gradient(to right, $primary-color, $secondary-color);
+  			-webkit-background-clip: text;
+  			-webkit-text-fill-color: transparent;
+
+			@media (max-width: $breakpoint-md) {
+    			font-size: 2em;
+  			}
+
+  			@media (min-width: $breakpoint-lg) {
+    			font-size: 3.5em;
+  			}
+
+			@keyframes reveal {
+  				from {
+    				opacity: 0;
+    				transform: translateY(20px);
+  				}
+  				to {
+    				opacity: 1;
+    				transform: translateY(0);
+  				}
+			}
 		}
 	}
 }
