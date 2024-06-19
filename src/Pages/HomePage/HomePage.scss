@@ -57,12 +57,17 @@ $text-color: #2c3e50;
             // color: rgb(0, 0, 0, 0.7);
   			background: linear-gradient(to right, $primary-color, $secondary-color);
   			-webkit-background-clip: text;
+            background-clip: text;
   			-webkit-text-fill-color: transparent;
 
             span {
                 opacity: 0;
                 display: inline-block;
                 animation: streaming 0.05s forwards;
+                background: linear-gradient(to right, $primary-color, $secondary-color);
+  			    -webkit-background-clip: text;
+                background-clip: text;
+  			    -webkit-text-fill-color: transparent;
             }
 
             @keyframes streaming {
