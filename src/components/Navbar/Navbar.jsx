@@ -4,7 +4,7 @@ import './Navbar.scss';
 import { NavLink } from 'react-router-dom';
 
 //Image imports
-import navbrand from '../../assets/navbrand.png';
+import navbrand from '../../assets/navbrand.gif';
 
 function Navbar(props) {
   const [click, setClick] = React.useState(false);

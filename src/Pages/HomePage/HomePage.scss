@@ -1,3 +1,8 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+
 .header {
     background: linear-gradient(
         0deg,
@@ -46,11 +51,26 @@
 
         &__description {
             margin-top: 3rem;
-            width: 50%;
-            font-size: 2.8rem;
+            width: 63%;
+            font-size: 3.2rem;
             text-align: center;
             // color: rgb(0, 0, 0, 0.7);
-            color: #fcffe7;
+  			background: linear-gradient(to right, $primary-color, $secondary-color);
+  			-webkit-background-clip: text;
+  			-webkit-text-fill-color: transparent;
+
+            span {
+                opacity: 0;
+                display: inline-block;
+                animation: streaming 0.05s forwards;
+            }
+
+            @keyframes streaming {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
         }
 
         &__icon {
