@@ -32,6 +32,16 @@ const K22 = [
         instaUrl: "https://www.instagram.com/_har_sh18?igsh=MTNtMGt4aG5jcHFsbQ=="
     },
     {
+        timestamp: "16/06/2024 23:53:09",
+        name: "Keshav Agarwal",
+        batch: "K22",
+        position: "Tech Lead (Software)",
+        imageUrl: "KeshavAgarwal",
+        linkedinUrl: "https://linkedin.com/in/keshav-agarwal-0927",
+        githubUrl: "https://github.com/masterK0927",
+        instaUrl: "https://instagram.com/MasterK0927"
+    },
+    {
         timestamp: "16/06/2024 12:37:38",
         name: "Ansh Aryan",
         batch: "K22",
@@ -50,16 +60,6 @@ const K22 = [
         linkedinUrl: "https://www.linkedin.com/in/ritik-raj1875/",
         githubUrl: "https://github.com/CodeSmith18",
         instaUrl: "https://www.instagram.com/ritikraj_1875/"
-    },
-    {
-        timestamp: "16/06/2024 23:53:09",
-        name: "Keshav Agarwal",
-        batch: "K22",
-        position: "Tech Lead (Software)",
-        imageUrl: "KeshavAgarwal",
-        linkedinUrl: "https://linkedin.com/in/keshav-agarwal-0927",
-        githubUrl: "https://github.com/masterK0927",
-        instaUrl: "https://instagram.com/MasterK0927"
     },
     {
         timestamp: "16/06/2024 18:02:35",
